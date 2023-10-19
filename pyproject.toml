@@ -1,0 +1,14 @@
+[tool.ruff]
+line-length = 88
+select = [
+    # Pyflakes
+    "F",
+    # Pycodestyle
+    "E", # errors
+    "W", # warnings
+
+    "N", # pep8-naming
+    "I", # isort
+    "R", # ruff
+]
+
